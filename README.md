@@ -103,6 +103,10 @@ Los archivos CSV se guardan en `data/` y se reutilizan en ejecuciones posteriore
 
 Este sistema produce **pronósticos probabilísticos**, no predicciones deterministas. La comunidad científica distingue entre *forecasting* (probabilidades relativas), *early warning systems* (alertas post-ruptura), y *prediction* (lugar/hora/magnitud exactos — aún imposible). Los resultados de este sistema no deben usarse para tomar decisiones de evacuación o seguridad sin validación experta.
 
+## Autor
+
+**Pablo Aravena**
+
 ## Licencia
 
-MIT
+MIT © 2026 Pablo Aravena
