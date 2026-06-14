@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.npy
+.DS_Store
+
+# Datos locales (descargados con descarga_datos.sh — no se versionan)
+data/
+
+# Entornos virtuales
+venv/
+.env
