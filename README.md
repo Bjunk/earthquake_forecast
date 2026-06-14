@@ -61,6 +61,42 @@ Los archivos CSV se guardan en `data/` y se reutilizan en ejecuciones posteriore
   CHILE                     98.5%      3.1%      6.0%      51.4%
   JAPON                     96.1%      7.3%     13.4%      52.9%
   ALASKA                    94.6%      3.7%      8.8%      50.2%
+
+  Diagnóstico de zonas clave del Anillo de Fuego:
+    CHILE             M≥2.5: 222  M≥5: 11  M≥6: 2  P(M5/7d): 57%→98%  ×4.98
+    JAPON             M≥2.5: 236  M≥5: 27  M≥6: 4  P(M5/7d): 88%→96%  ×1.56
+    INDONESIA         M≥2.5: 693  M≥5:110  M≥6: 8  P(M5/7d): 100%→100%  ×1.60
+    ALASKA            M≥2.5:1492  M≥5:  7  M≥6: 0  P(M5/7d): 42%→95%  ×5.41
+    PERU_ECUADOR      M≥2.5:  48  M≥5:  7  M≥6: 1  P(M5/7d): 42%→96%  ×6.07
+
+  Escenario más coherente (#7802, score KDE=-10.487):
+  Total eventos estimados en 7 días: 1370
+  Eventos M≥5.0: 21   |   Eventos M≥6.0: 4
+
+  TOP EVENTOS PRONOSTICADOS EN EL MEJOR ESCENARIO (M≥5.0):
+  [1] M6.2  Zona:TONGA_FIJI           Lat:-20.74 Lon:-178.18  Prof:548km
+  [2] M6.1  Zona:CARIBE               Lat:+19.03 Lon:-64.41   Prof:26km
+  [3] M6.1  Zona:TONGA_FIJI           Lat:-21.84 Lon:-179.41  Prof:613km
+  [4] M6.0  Zona:ALASKA               Lat:+60.29 Lon:-153.40  Prof:176km
+  [5] M6.0  Zona:TAIWAN               Lat:+23.15 Lon:+122.29  Prof:10km
+  [6] M6.0  Zona:JAPON                Lat:+39.96 Lon:+143.82  Prof:10km
+
+=================================================================
+  RESUMEN DEL MODELO DE APRENDIZAJE
+=================================================================
+  Zonas sísmicas monitoreadas:          16
+  Días de historial aprendido:           90
+  Correlaciones cruzadas significativas: 0
+  Relaciones Hawkes estimadas:           240
+
+  Mayor amplificación aprendida (Hawkes):
+    M5+ en CARIBE → tasa en KAMCHATKA × 2.47
+
+  Zonas con mayor excitación ahora mismo:
+    → PERU_ECUADOR: probabilidad amplificada ×6.07
+    → ALASKA: probabilidad amplificada ×5.41
+    → TAIWAN: probabilidad amplificada ×5.03
+=================================================================
 ```
 
 ## Advertencia científica
