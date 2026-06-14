@@ -4,8 +4,8 @@ __pycache__/
 *.npy
 .DS_Store
 
-# Datos locales (descargados con descarga_datos.sh — no se versionan)
-data/
+# Datos locales en formato numpy (caché interno)
+data/*.npy
 
 # Entornos virtuales
 venv/
